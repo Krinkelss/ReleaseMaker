@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.067,=C:\Users\Александр\Documents\Projekt\ReleaseMaker\ListFile.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.057,C:\Users\Александр\Documents\Projekt\ReleaseMaker\ListFile.h=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.354,=C:\Users\Александр\Documents\Projekt\ReleaseMaker\ListFile.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.047,C:\Users\Александр\Documents\Projekt\ReleaseMaker\ListFile.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.051,=C:\Users\Александр\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.727,=C:\Users\Александр\Documents\Projekt\ReleaseMaker\hash.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.036,C:\Users\Александр\Documents\Projekt\ReleaseMaker\hash.h=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.444,C:\Users\Александр\Documents\RAD Studio\Projects\Project1.cbproj=C:\Users\Александр\Documents\Projekt\ReleaseMaker\ReleaseMaker.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.009,=C:\Users\Krinkels\Documents\Borland\ReleaseMaker\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.064,=C:\Users\Александр\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.549,=C:\Users\Александр\Documents\Projekt\ReleaseMaker\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.686,C:\Users\Александр\Documents\Projekt\ReleaseMaker\Unit2.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.242,C:\Users\Александр\Documents\RAD Studio\Projects\Unit1.h=C:\Users\Александр\Documents\Projekt\ReleaseMaker\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.242,C:\Users\Александр\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Александр\Documents\Projekt\ReleaseMaker\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.723,=C:\Users\Александр\Documents\Projekt\ReleaseMaker\hash.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.174,=C:\Users\Krinkels\Documents\Borland\ReleaseMaker\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.242,C:\Users\Александр\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\Александр\Documents\Projekt\ReleaseMaker\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.974,C:\Users\Александр\Documents\Projekt\ReleaseMaker\hash.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.120,=C:\Users\Krinkels\Documents\Borland\ReleaseMaker\Unit3.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,39 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{F3E2207B-9380-4CAB-9AE9-A6439D734AA3}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="ReleaseMaker.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\ReleaseMaker - копия\ReleaseMaker.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="ReleaseMaker">
+			<MSBuild Projects="..\ReleaseMaker - копия\ReleaseMaker.cbproj"/>
+		</Target>
+		<Target Name="ReleaseMaker:Clean">
+			<MSBuild Projects="..\ReleaseMaker - копия\ReleaseMaker.cbproj" Targets="Clean"/>
+		</Target>
+		<Target Name="ReleaseMaker:Make">
+			<MSBuild Projects="..\ReleaseMaker - копия\ReleaseMaker.cbproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="ReleaseMaker;ReleaseMaker"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="ReleaseMaker:Clean;ReleaseMaker:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="ReleaseMaker:Make;ReleaseMaker:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
